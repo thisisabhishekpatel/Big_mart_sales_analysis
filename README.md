@@ -58,5 +58,17 @@ Refer: https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sa
 
 <b> Root mean squared error (RMSE)</b>: 
 
+<h3> 2.2.3 Final model results </h3>
 
+| Model/Algorithm  | Hyparparameter used  | TEST RMSE |
+| :------------ |:---------------:| -----:|
+| Ridge Regression     | alpha | 1071.3719 |
+| Lasso Regression        | alpha |   1093.4064 |
+| Decision Tree | max_depth, min_samples_leaf, max_feature | 1047.1343  |
+| Random Forest Regressor     | n_estimators,min_samples_split,max_depth | 1048.32 |
+| Light GBM      | learning_rate,n_estimators,boosting_type,num_leaves,max_depth |  1018.4327 |
+| MLP | nurons, activation function | 1042.44 |
 
+<h3> 2.2.4 feature Importance </h3>
+
+![image](https://user-images.githubusercontent.com/43522660/120953246-bec69900-c78b-11eb-8c96-afe8187388eb.png)
